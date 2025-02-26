@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: moneymouth
+  description: None
+  x-cortex-tag: moneymouth
+  x-cortex-type: service
+  x-cortex-slack:
+    channels:
+    - name: moneymouth
+      notificationsEnabled: true
+  x-cortex-git:
+    github:
+      repository: Cortex-Customer-Engineering/moneymouth
+      alias: default
+  x-cortex-oncall:
+    pagerduty:
+      id: 12435
+      type: SCHEDULE
